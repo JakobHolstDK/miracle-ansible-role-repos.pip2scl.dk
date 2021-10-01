@@ -15,14 +15,6 @@
   tags:
     - rpmbuild_pkg
 
-- name: Create the RPM macros file
-  template:
-    src: rpmmacros.j2
-    dest: "{{ rpmbuild_user_home }}/.rpmmacros"
-  tags:
-    - rpmbuild_config
-    - rpmbuild_macros
-
 - name: Create directory structure
   file:
     path: "{{ item }}"
