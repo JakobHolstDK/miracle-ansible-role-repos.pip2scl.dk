@@ -15,6 +15,7 @@ rpmbuild_dirs:
   - "{{ rpmbuild_build_dir }}"
   - "{{ rpmbuild_build_dir }}/BUILD"
   - "{{ rpmbuild_build_dir }}/PROJECTS"
+  - "{{ rpmbuild_build_dir }}/REQUIREMENTS"
   - "{{ rpmbuild_build_dir }}/SOURCES"
   - "{{ rpmbuild_build_dir }}/SPECS"
   - "{{ rpmbuild_build_dir }}/SRPMS"
